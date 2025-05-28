@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name>GameServlet</servlet-name>
+    <servlet-class>GameServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>GameServlet</servlet-name>
+    <url-pattern>/GameServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
